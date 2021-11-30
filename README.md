@@ -11,3 +11,5 @@
 - Use Brother QL-700 to print the labels
 
 Simplest inventory system of the world!
+
+Please note: The QR codes must all end with the character '#', as we use it as delimiter for the browser action. This delimiter choice is fine in our case because PartBolt does not use URL fragments.
