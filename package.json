@@ -18,6 +18,7 @@
   "homepage": "https://github.com/nesto-software/netum-serial-driver#readme",
   "dependencies": {
     "@serialport/parser-delimiter": "^9.2.4",
+    "node-key-sender": "^1.0.11",
     "open": "^8.4.0",
     "serialport": "^9.2.8"
   }
