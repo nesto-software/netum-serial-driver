@@ -3,7 +3,7 @@
 - Buy: [Netum C750](https://www.amazon.de/gp/product/B0855MQ9Y6/ref=ppx_yo_dt_b_asin_title_o00_s00?ie=UTF8&psc=1)
 - Buy: Raspberry Pi 4B and peripherals (mouse, monitor, keyboard)
 - Install git and check this repo out
-- Install nodejs, npm/yarn, firefox
+- Install nodejs, npm/yarn, firefox, default-jdk
 - Install node-gyp
 - Install a graphical environment
 - Install dependencies for this repository: `yarn` OR `npm install`
