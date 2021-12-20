@@ -14,7 +14,7 @@ firefoxParser.on('data', async (data) => {
             }
         });
     } else {
-        await ks.sendText(data.toString());
+        await ks.sendText(data.toString().replace("$", ""));
         await ks.sendKey("enter");
     }
 });
