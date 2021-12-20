@@ -1,0 +1,10 @@
+[Unit]
+Description=Netum Serial Driver
+
+[Service]
+Type=simple
+Environment="DISPLAY=:0"
+ExecStart=node /home/pi/netum-serial-driver/index.js
+
+[Install]
+WantedBy=default.target
