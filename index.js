@@ -20,5 +20,5 @@ keyboardParser.on('data', async (data) => {
 });
 
 port.on('data', async (data) => {
-    console.log(data);
+    console.log(data.toString());
 });
