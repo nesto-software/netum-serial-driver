@@ -13,12 +13,7 @@ firefoxParser.on('data', async (data) => {
                 name: open.apps.firefox
             }
         });
-    }
-});
-
-const keyboardParser = port.pipe(new Delimiter({ delimiter: '$' }))
-keyboardParser.on('data', async (data) => {
-    if (!data.toString().includes("#")) {
+    } else {
         ks.sendText(data.toString());
         ks.sendKey("enter");
     }
