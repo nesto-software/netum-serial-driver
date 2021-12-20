@@ -16,7 +16,7 @@ firefoxParser.on('data', async (data) => {
 
 const keyboardParser = port.pipe(new Delimiter({ delimiter: '$' }))
 keyboardParser.on('data', async (data) => {
-    ks.sendText(data);
+    ks.sendText(data.toString());
 });
 
 port.on('data', async (data) => {
